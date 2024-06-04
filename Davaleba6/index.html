@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal and Color Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="openModalBtn">Open Modal</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Change Background Color</h2>
+            <input type="text" id="colorInput" placeholder="Enter color (red, blue, green, black, white)">
+            <button id="changeColorBtn">Change Color</button>
+            <h2>Calculate Average</h2>
+            <input type="text" id="numbersInput" placeholder="Enter numbers separated by :">
+            <button id="calculateAverageBtn">Calculate Average</button>
+            <p id="averageResult"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
